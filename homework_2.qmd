@@ -63,7 +63,7 @@ dataframe_bp_neg_diff <- dataframe_bp[dataframe_bp$diff_bp < 0, ]
 #creating new column
 dataframe_bp$post_below_120 <- dataframe_bp$post_bp < 120
 
-#knitr::kable(dataframe_bp, row.names = FALSE, caption = "Blood Pressure: Treatment")
+knitr::kable(dataframe_bp, row.names = FALSE, caption = "Blood Pressure: Treatment")
 ```
 
 ## Task 3: Basic List Practice
